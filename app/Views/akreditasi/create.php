@@ -14,7 +14,7 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
             <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
             <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
-            <form action="/registration/save" method="post">
+            <form action="/akreditasi/save" method="post">
                 <?= csrf_field(); ?>
                 <div class="row mb-3">
                     <label for="pt" class="col-sm-2 col-form-label">Nama Perguruan Tinggi</label>
