@@ -41,7 +41,7 @@
                             <td><?= $a['tgl_exp']; ?></td>
                             <td><?= $a['status_exp']; ?></td>
                             <td>
-                                <a href="/akreditasi/<?= $a['id']; ?>" class="btn btn-success">Detail</a>
+                                <a href="/akreditasi/detail/<?= $a['id']; ?>" class="btn btn-success">Detail</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
